@@ -1,0 +1,107 @@
+
+.navbar{
+    height: 50px;
+}
+
+.navbar-light .navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-light:hover .navbar-brand:hover,.navbar-light:focus .navbar-brand:focus,.navbar-light:active .navbar-brand:active,.navbar-light:active:focus .navbar-brand:active:focus {
+    color: #ffffff!important;
+}
+
+.navbar-nav li+li::before{
+    content:" | ";
+    color: #dddddd;
+}
+
+.nav-link{
+    display: inline;
+    padding: 0px;
+    
+}
+
+
+.navbar-light .navbar-nav .nav-link{
+    color:#dddddd;
+}
+
+.bg-light {
+    background-color: #ffffff!important;
+    padding:0px;
+}
+
+.jumbotron{
+    background-image: url(../images/dust_scratches.png);
+    border-top:3px solid #cccccc;
+    margin-bottom: 0px;
+}
+
+
+.content{
+    background: #ffffff;
+    padding:10px;
+
+}
+
+
+.content h2{
+    padding:10px;
+    border-bottom: 2px solid #dddddd;
+}
+
+
+.text-muted{
+    color: #ffffff!important;
+}
+.form-control::-moz-placeholder {
+    color: #ddd;
+  }
+  .form-control:-ms-input-placeholder {
+    color: #ddd;
+  }
+.form-control::-webkit-input-placeholder {
+    color: #ddd;
+}
+
+
+
+#contact-form .btn-primary:hover, #contact-form .btn-primary:focus, 
+#contact-form .btn-primary:active, #contact-form .btn-primary.active,
+#contact-form .btn-primary.active:focus,#contact-form .btn-primary:active:focus {
+    background-color: #777777;
+    color:#ffffff ;
+    border-color: #777777;
+    height: 30px;
+    width: 80px;
+    font-size: 12px;
+}
+
+ .btn-success {
+    color: #fff;
+    background-color: #777777;
+    border-color: #777777;
+    height: 45px;
+    font-size: 20px;
+}
+
+#word b
+
+.trivia .btn-secondary:hover,  .trivia .btn-secondary:focus, 
+.trivia .btn-secondary:active,  .trivia .btn-secondary.active,
+.trivia .btn-secondary.active:focus, .trivia .btn-secondary:active:focus,
+.animal-giftastic .btn-secondary:hover,  .animal-giftastic .btn-secondary:focus, 
+.animal-giftastic .btn-secondary:active,  .animal-giftastic .btn-secondary.active,
+.animal-giftastic .btn-secondary.active:focus, .animal-giftastic .btn-secondary:active:focus
+{
+    color: white;
+}
+
+.animal-giftastic .btn-secondary{
+    margin: 10px;
+}
+
+
+
+
